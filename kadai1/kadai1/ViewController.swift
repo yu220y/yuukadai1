@@ -22,9 +22,9 @@ class ViewController: UIViewController {
         let number3 = Int(textField3.text ?? "") ?? 0
         let number4 = Int(textField4.text ?? "") ?? 0
         let number5 = Int(textField5.text ?? "") ?? 0
-        //計算式//
+        // 計算式
         let result = number1 + number2 + number3 + number4 + number5
-        //変換//
+        // 変換
         label.text = "\(result)"
     }
 }
